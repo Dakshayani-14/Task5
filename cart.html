@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoDelight - Cart</title>
+    <link rel="stylesheet" href="Task5.css">
+</head>
+<body>
+    <!-- Shared Header -->
+    <header>
+        <nav>
+            <div class="logo">ChocoDelight</div>
+            <ul>
+                <li><a href="header.html">header</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Content -->
+    <main>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be dynamically loaded here -->
+            </div>
+            <div class="cart-summary">
+                <h3>Summary</h3>
+                <p>Total: $<span id="cartTotal">0.00</span></p>
+                <button id="checkoutButton" disabled>Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer>
+        <p>&copy; 2024 ChocoDelight. All rights reserved.</p>
+    </footer>
+
+    <script src="Task5.js"></script>
+</body>
+</html>
